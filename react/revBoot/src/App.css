@@ -1,0 +1,7 @@
+.resposta-errada{
+    cursor: default!important;
+}
+
+.resposta-errada:hover{
+    opacity: 0;
+}
