@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+a:active {
+  opacity: 0.6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 48px;
+  text-align: center;
+}
+header h1 {
+  margin-bottom: 12px;
+}
+header p {
+  width: 40%;
+  min-width: 350px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+}
+nav a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 12px 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main .section-painel {
+  background-color: darkorchid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+main .section-painel h2 {
+  text-transform: uppercase;
+  width: fit-content;
+  color: white;
+}
+main .section-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .section-cards .card {
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 16px;
+  overflow: hidden;
+  aspect-ratio: 1;
+  position: relative;
+}
+main .section-cards .card img {
+  height: 100%;
+  object-fit: cover;
+}
+main .section-cards .card p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 12px 20px;
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@media (width < 654px) {
+  .section-cards .card {
+    margin: 8px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
