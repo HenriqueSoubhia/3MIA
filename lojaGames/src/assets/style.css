@@ -91,6 +91,16 @@ main .section-cards .card p {
   padding: 12px 20px;
   background-color: rgba(0, 0, 0, 0.685);
 }
+main .section-contato {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 250px 100px;
+}
+main .section-contato h2 {
+  margin-bottom: 24px;
+}
 
 footer {
   background-color: black;
@@ -102,9 +112,9 @@ footer {
   align-items: flex-end;
 }
 
-@media (width < 654px) {
+@media (width < 678px) {
   .section-cards .card {
-    margin: 8px 0;
+    margin: 8px 0 !important;
   }
 }
 
