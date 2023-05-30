@@ -32,7 +32,7 @@ header h1 {
 }
 header p {
   width: 40%;
-  min-width: 350px;
+  min-width: 300px;
 }
 
 nav {
@@ -69,7 +69,7 @@ main .section-cards {
   flex-wrap: wrap;
 }
 main .section-cards .card {
-  min-width: 350px;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -115,6 +115,9 @@ footer {
 @media (width < 678px) {
   .section-cards .card {
     margin: 8px 0 !important;
+  }
+  nav a {
+    padding: 12px;
   }
 }
 

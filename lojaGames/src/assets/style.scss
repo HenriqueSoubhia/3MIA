@@ -38,7 +38,7 @@ header{
     }
     p{
         width: 40%;
-        min-width: 350px;
+        min-width: 300px;
     }
 }
 
@@ -74,7 +74,7 @@ main{
         display: flex;
         flex-wrap: wrap;
         .card{
-            min-width: 350px;
+            min-width: 300px;
             display: flex;
             flex-direction: column;
             flex: 1;
@@ -124,6 +124,11 @@ footer{
     .section-cards{
         .card{
             margin: 8px 0!important;
+        }
+    }
+    nav{
+        a{
+            padding: 12px ;
         }
     }
 }
